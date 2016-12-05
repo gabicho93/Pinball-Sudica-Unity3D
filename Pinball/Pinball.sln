@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{7485E054-33AC-5D3A-346A-594485A92908}") = "Pinball", "Assembly-CSharp.csproj", "{BB05E0C7-5321-6011-46F5-F08DDB27510C}"
 EndProject
+Project("{7485E054-33AC-5D3A-346A-594485A92908}") = "Pinball", "Assembly-UnityScript.unityproj", "{03F117F1-1246-21E2-6C2A-964D267E4026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,12 +15,15 @@ Global
 		{BB05E0C7-5321-6011-46F5-F08DDB27510C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB05E0C7-5321-6011-46F5-F08DDB27510C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB05E0C7-5321-6011-46F5-F08DDB27510C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F117F1-1246-21E2-6C2A-964D267E4026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F117F1-1246-21E2-6C2A-964D267E4026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F117F1-1246-21E2-6C2A-964D267E4026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F117F1-1246-21E2-6C2A-964D267E4026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-			GlobalSection(MonoDevelopProperties) = preSolution
+	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
-
 EndGlobal
